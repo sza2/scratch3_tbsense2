@@ -4,7 +4,7 @@ Scratch 3 extension for Thunderboard Sense 2
 
 This extension aims to make Silicon Labs' Thunderboard Sense 2 (BRD4166A) board work with Scratch 3. The extension was developed based on the Scratch 3 micro:bit extension source code. Currently, LED color (brightness) and LED state (on/off) as control and X/Y acceleration (tilt), thermo- and humidity sensor, and two buttons as sensing are supported.
 
-This extension requires the corresponding [firmware](https://github.com/sza2/tbsense2scratch3) for Thunderboard Sense 2.
+This extension requires the corresponding [firmware](https://github.com/sza2/tbsense2scratch3) for Thunderboard Sense 2. Note: the release versions must match.
 
 ## Installation
 
@@ -19,4 +19,3 @@ Additionally, you need to run [Scratch Link](https://en.scratch-wiki.info/wiki/S
 All installations are done in Linux (Debian 10) I don't know if it works with other versions/distros/platforms (basically it should as these are just Javascript and image files).
 
 The repo contains two demo Scratch 3 applications [tbsense2scratch3demo.sb3](https://github.com/sza2/scratch3_tbsense2/blob/main/tbsense2scratch3demo.sb3) that exploits the tilt and button sensing and LED control capabilities of the Thunderboard Sense 2 and [tbsense2scratch3thermometer.sb3](https://github.com/sza2/scratch3_tbsense2/blob/main/tbsense2scratch3thermometer.sb3) that uses the onboard thermometer sensor.
-
